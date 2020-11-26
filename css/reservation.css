@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(237, 250, 0, 0.5);
+}
+
+main {
+  width: 800px;
+  height: 160vh;
+  background-color: white;
+  padding: 30px 30px 30px 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+p {
+  text-align: center;
+  border: solid 2px black;
+  padding: 15px 50px 10px 50px;
+}
+
+.lang_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-type1 {
+  width: 250px;
+  height: 60px;
+}
+
+.party_plan {
+  background-color: white;
+  color: black;
+}
+
+.rsv_ex {
+  border: none;
+}
