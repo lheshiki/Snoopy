@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(237, 250, 0, 0.5);
+  background-color: rgba(245, 250, 0, 0.5);
 }
 
 main {
@@ -28,6 +28,11 @@ p {
   padding: 15px 50px 10px 50px;
 }
 
+p:hover {
+  color: #f5fa00;
+  cursor: pointer;
+}
+
 .lang_container {
   display: flex;
   justify-content: space-around;
@@ -46,4 +51,18 @@ p {
 
 .rsv_ex {
   border: none;
+}
+
+.rsv_ex:hover {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f5fa00;
+  cursor: pointer;
 }
