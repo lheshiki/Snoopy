@@ -1,0 +1,62 @@
+// 変数宣言
+$width: 100%;
+
+$col1 : $width / 1;
+$col1 : $width / 2;
+$col1 : $width / 3;
+
+// 関数宣言
+@mixin title-align {text-align: center;}
+@mixin flex ($position){display: flex;
+            justify-content: $position;
+            align-items: center;}
+
+// Codeはここから！
+
+body{@include flex(center)
+    background-color: rgba(245, 250, 0, 0.5);}
+
+main{
+     width: 800px;
+     height: 160vh;
+     background-color: white;
+     padding: 30px 30px 30px 30px;
+    }
+
+h1{@include title-align() }
+
+h2{@include title-align();
+  background-color: black;
+  color: white; }
+
+p{
+  @include title-align();
+  border: solid 2px black;
+  padding: 15px 50px 10px 50px;
+  &:hover{
+          color: rgb(245,250,0);
+          cursor: pointer; 
+         }
+ }
+
+
+.lang_container{@include flex(space-around)}
+
+.box-type1{width: 250px;
+           height: 60px;
+          }
+
+.party_plan{background-color: white;
+            color: black;}
+
+.rsv_ex{border: none;
+        &:hover{color:black;}
+        }
+
+a{color: black;
+  text-decoration: none;
+  &:hover{
+          color: rgb(245,250,0);
+          cursor: pointer;
+         }
+  }
