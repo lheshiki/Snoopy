@@ -63,6 +63,24 @@ a img {
   color: black;
 }
 
+.ct1 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.concept {
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+}
+
+#concept_text {
+  font-family: 'brandontxt',"mplus-2p", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+}
+
 .shop_img img {
   width: 380px;
   height: 180px;
