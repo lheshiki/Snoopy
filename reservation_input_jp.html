@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/reservation_input_jp.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrap">
+        <!-- タイトル部分 -->
+        <div id="titleBox">
+            <div class="clearfix">
+              <h1 id="shopTitle">PEANUTS Cafe 中目黒</h1>
+              <div id="shopImg"><img src="https://images.ebica.jp/webrsv/shops/prod/e014001307/4254/9319c16cbffb79fc8ffa2d3929439bed7e7c0f4ccc9592ec7bad04f49804eb25.jpg" class="ebisolIcon" alt="Icon"></div>
+            </div>
+            <ul id="shopInfo" class="">
+              <li><span>TEL：</span><span class="shopTelno"></span></li>
+              <li><span>住所：</span><span class="shopAddress">東京都目黒区青葉台2-16-7</span></li>
+            </ul>
+          </div>
+          <div class="subtitlebox">
+            <h2><span>1</span>条件を指定してください</h2>
+         </div>
+
+         <p id="webdsptext1" class="mar-b20">本ページでは、お席のみのご予約が可能です。<br>
+            <font color="red">◆◇バースデープランご希望の方は、バースデープラン専用ページよりご予約ください。こちらでご予約された場合、通常予約となります。◇◆</font><br>
+            
+            ※確定したご予約に関するお問い合わせはメールでのみ承っております。<br>
+            ※空席照会や予約のご希望にはお答えしておりません。<br>
+            <a href="mailto:reserve@peanutscafe.jp">reserve@peanutscafe.jp</a><font color="blue">※土日祝は返信にお時間をいただくことがございます。</font><br>※当店のご利用は予約につき、90分制とさせていただきます<br>
+            ※ベビーカーのお持ち込み及びペットの同伴はご遠慮いただいております。<br>
+            <font size="3"><font color="red">※駐輪場がございませんので自転車でのご来店はご遠慮ください。</font></font><br>
+            <br>
+            <font color="red">※メール返信がすぐ出来ない場合がございます。お急ぎの方はお店に直接お電話いただけますようお願い致します。</font><br>
+            ＜電話お問合せ先：03-6452-5882＞</p>
+        
+            <div class="reserveCondition shadowBox">
+                <dl class="clearfix">
+                  <dt><img src="https://images.ebica.jp/webrsv/img/shop.png" alt="" width="21" height="21"></dt>
+                  <dd class="shop shopName">
+                    <span class="shopName">PEANUTS Cafe 北谷</span><input type="hidden" name="data[shop]" value="4254" class="selectShop" id="shop"></dd>
+                  <dd class="calendar">
+                    <p><img src="https://images.ebica.jp/webrsv/img/calendar-64.png" alt="" width="21" height="21"><input type="text" id="input1" /></p>
+                  </dd>
+                  <dd class="time">
+                      <img src="https://images.ebica.jp/webrsv/img/access-time-128.png" alt="" width="21" height="21"><select id="selectTime" name="data[selectTime]" class="SelectBox5 selectTime" style="width:80px;"><option value="1145" attr-dchangevalue="1145">11:45</option><option value="1200" attr-dchangevalue="1200">12:00</option><option value="1215" attr-dchangevalue="1215">12:15</option><option value="1230" attr-dchangevalue="1230">12:30</option><option value="1245" attr-dchangevalue="1245">12:45</option><option value="1300" attr-dchangevalue="1300">13:00</option><option value="1315" attr-dchangevalue="1315">13:15</option><option value="1330" attr-dchangevalue="1330">13:30</option><option value="1345" attr-dchangevalue="1345">13:45</option><option value="1400" attr-dchangevalue="1400">14:00</option><option value="1415" attr-dchangevalue="1415">14:15</option><option value="1430" attr-dchangevalue="1430">14:30</option><option value="1445" attr-dchangevalue="1445">14:45</option><option value="1500" attr-dchangevalue="1500">15:00</option><option value="1515" attr-dchangevalue="1515">15:15</option><option value="1530" attr-dchangevalue="1530">15:30</option><option value="1545" attr-dchangevalue="1545">15:45</option><option value="1600" attr-dchangevalue="1600">16:00</option><option value="1615" attr-dchangevalue="1615">16:15</option><option value="1630" attr-dchangevalue="1630">16:30</option><option value="1645" attr-dchangevalue="1645">16:45</option><option value="1700" attr-dchangevalue="1700">17:00</option><option value="1700" attr-dchangevalue="1700">17:00</option><option value="1715" attr-dchangevalue="1715">17:15</option><option value="1730" attr-dchangevalue="1730">17:30</option><option value="1745" attr-dchangevalue="1745">17:45</option><option value="1800" attr-dchangevalue="1800">18:00</option><option value="1815" attr-dchangevalue="1815">18:15</option><option value="1830" attr-dchangevalue="1830">18:30</option><option value="1845" attr-dchangevalue="1845">18:45</option><option value="1900" attr-dchangevalue="1900">19:00</option><option value="1915" attr-dchangevalue="1915">19:15</option><option value="1930" attr-dchangevalue="1930">19:30</option><option value="1945" attr-dchangevalue="1945">19:45</option><option value="2000" attr-dchangevalue="2000">20:00</option></select>
+            <input type="hidden" name="data[date]" value="2020/11/28" id="date"><input type="hidden" name="data[time]" value="0" id="time">        </dd>
+                </dl>
+                  <div class="mar-b10">
+                      <div class="errorInfo red error_text page_top_error"></div>
+                      <div class="errorInfo red error_text page_top_error"></div>
+                      <div class="errorInfo red error_text page_top_error"></div>
+                  </div>
+                  
+          
+              <dl class="clearfix un_dl">
+                      <dt><img src="https://images.ebica.jp/webrsv/img/mark_people.png" alt="" width="21" height="21"></dt>
+                      <dd>
+              <span class="adult_info">大人</span><select name="data[adult]" class="selectBox personSelect w120" id="adult">
+                <option value="0">0名</option>
+                <option value="1" selected="selected">1名</option>
+                <option value="2">2名</option>
+                <option value="3">3名</option>
+                <option value="4">4名</option>
+                <option value="5">5名</option>
+                <option value="6">6名</option>
+                </select><span class="child_info">子ども</span>
+                <select name="data[child]" class="selectBox personSelect w120" id="child">
+                <option value="0" selected="selected">0名</option>
+                <option value="1">1名</option>
+                <option value="2">2名</option>
+                <option value="3">3名</option>
+                <option value="4">4名</option>
+                <option value="5">5名</option>
+                <option value="6">6名</option>
+                </select></dd>
+                            </dl>
+              
+          
+          <div id="coursersvderr"></div>
+          <p class="attention_text">※ 7名以上のご予約はお問い合わせください。</p>
+          <p id="webdsppersonnumnotice" class="attention_text">　</p>
+                  <div class="mar-b10">
+                      <div class="errorInfo red error_text page_top_error"></div>
+                      <div class="errorInfo red error_text page_top_error"></div>
+                              </div>
+              </div>
+        
+        
+
+
+    
+
+
+
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+    <script>
+        $(function() {
+            $.datepicker.setDefaults($.datepicker.regional["ja"]);
+            $("#input1").datepicker();
+        });
+    </script>  
+</body>
+</html>
+
+
+
+

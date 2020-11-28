@@ -1,0 +1,97 @@
+.shadowBox {
+  box-shadow: 0 0 10px rgba(89, 33, 0, 0.45);
+  border-radius: 8px;
+  padding: 20px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.clearfix {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap {
+  margin: 0 auto;
+  padding-top: 60px;
+  text-align: left;
+  width: 700px;
+}
+
+#shopImg img {
+  max-width: 128px;
+  max-height: 189px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 10px;
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+li {
+  display: list-item;
+  font-size: 15px;
+}
+
+#shopTitle {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 556px;
+  color: #592100;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
+.subtitlebox h2 {
+  display: inline;
+  color: #592100;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.shadowBox .calendar input {
+  padding: 0 5px;
+  width: 95px;
+}
+
+.shadowBox dd select, .shadowBox dd input {
+  height: 37px;
+  font-size: 14px;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #b6b6b6;
+  border-radius: 4px;
+}
+
+.subtitlebox h2 span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 15.08px;
+  font-weight: normal;
+  background-color: #592100;
+  border-radius: 15px;
+}
+
+#input1 {
+  margin-left: 5px;
+}
+
+#selectTime {
+  margin-left: 5px;
+}
