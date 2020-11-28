@@ -4,7 +4,7 @@
     background-color: #000;
 }
 
-.header_sub_tittle {
+.header_sub_tittle p {
     color: #ffffff;
     font-size: 9px;
     // position: absolute;
@@ -55,4 +55,10 @@ a img {
 
 .sns {
     display: flex;
+    z-index: 10;
+    top: 8px;
+}
+
+.carousel-control-prev .carousel-control-prev-icon {
+    color: black;
 }
