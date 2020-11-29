@@ -179,11 +179,30 @@ li {
   border-radius: 8px;
 }
 
+.errorBox {
+  padding: 20px 60px;
+  text-align: center;
+  background-color: transparent;
+  background-image: url(https://images.ebica.jp/webrsv/img/bg_pink.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 101% 100%;
+  border-radius: 8px;
+}
+
 .trigger {
   display: none;
 }
 
-.button_selecter {
-  margin-top: 20px;
-  margin-bottom: 20px;
+#timeTableBox, .timeTableBox {
+  padding: 30px 22px 70px 22px;
+  width: 635px;
+}
+
+.input_form {
+  display: inline;
+  color: #592100;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 100px;
 }

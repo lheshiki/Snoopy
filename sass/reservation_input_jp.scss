@@ -19,7 +19,7 @@ body{@include flex(center)}
     padding-top: 60px;
     text-align: left;
     width: 700px;
-}
+    }
 
 #shopImg img {
     max-width: 128px;
@@ -154,11 +154,23 @@ li {
         background-position: center;
         background-size: auto;
         border-radius: 8px;
-    　　}
+        }
+
+.errorBox{
+            padding: 20px 60px;
+            text-align: center;
+            background-color: transparent;
+            background-image: url(https://images.ebica.jp/webrsv/img/bg_pink.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 101% 100%;
+            border-radius: 8px;
+        }
 
 .trigger{display: none;}
 
-.button_selecter {
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                　}
+#timeTableBox, .timeTableBox {
+    padding: 30px 22px 70px 22px;
+    width: 635px;
+}
+
