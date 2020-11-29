@@ -19,7 +19,7 @@ body{@include flex(center)}
     padding-top: 60px;
     text-align: left;
     width: 700px;
-}
+    }
 
 #shopImg img {
     max-width: 128px;
@@ -85,3 +85,138 @@ li {
 #input1{margin-left: 5px;}
 
 #selectTime{margin-left: 5px;}
+
+.clearfix{@include flex(center);}
+
+.attention_text{text-align: center;}
+
+.seat_select{text-align: center;}
+
+.imp-label {
+    padding: 2px 5px;
+    font-size: 10px;
+    color: #FFF;
+    background: #ED452E;
+}
+
+.button_selecter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button_selecter .making_button4 {
+    padding: 12px 5px;
+    margin: 0 10px 10px 0;
+    width: 120px;
+}
+.button_selecter .making_button3, .button_selecter .making_button4 {
+    float: left;
+    font-size: 14px;
+    color: #5C5C5C;
+    text-align: center;
+    background: #DBDBDB;
+    border: none;
+    border-radius: 6px;
+}
+
+#searchsheetct{@include flex(center);}
+
+.floor{ont-size: 14px;
+    color: #5C5C5C;
+    text-align: center;
+    background: #DBDBDB;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 5px;
+    margin: 0 10px 10px 0;
+    width: 120px;
+    }
+
+.floor1{ont-size: 14px;
+        color: #5C5C5C;
+        text-align: center;
+        background: #DBDBDB;
+        border: none;
+        border-radius: 6px;
+        padding: 12px 5px;
+        margin: 0 10px 10px 0;
+        width: 120px;
+       }
+
+
+
+.okBox {
+        padding: 5px;
+        text-align: center;
+        background-color: transparent;
+        background-image: url(https://images.ebica.jp/webrsv/img/bg_green_peace.png);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: auto;
+        border-radius: 8px;
+        }
+
+.errorBox{
+            padding: 20px 60px;
+            text-align: center;
+            background-color: transparent;
+            background-image: url(https://images.ebica.jp/webrsv/img/bg_pink.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 101% 100%;
+            border-radius: 8px;
+        }
+
+.trigger{display: none;}
+
+#timeTableBox, .timeTableBox {
+    padding: 30px 22px 70px 22px;
+    width: 635px;
+}
+
+.div_flex{
+          @include flex(center);
+          padding-bottom: 20px ;
+         }
+
+.input_form{margin-top: 10px;}
+
+form{margin-top: 50px;}
+
+.w160 {
+    margin-right: 10px;
+    width: 160px;
+}
+.inputBox {
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.w360 {
+    width: 360px;
+    box-sizing: border-box;
+}
+
+.flex_center{@include flex(center)}
+
+.ast{color: red;}
+
+.submit{
+    margin: 0 0 0 10px;
+    width: 240px;
+    height: 37px;
+    color: #fff;
+    font-size: 14px;
+    vertical-align: middle;
+    background: #662b09;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2MmIwOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzZDFkMDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #662b09 0%, #3d1d08 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#662b09), color-stop(100%,#3d1d08));
+    background: -webkit-linear-gradient(top, #662b09 0%,#3d1d08 100%);
+    background: -o-linear-gradient(top, #662b09 0%,#3d1d08 100%);
+    background: -ms-linear-gradient(top, #662b09 0%,#3d1d08 100%);
+    background: linear-gradient(to bottom, #662b09 0%,#3d1d08 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#662b09', endColorstr='#3d1d08',GradientType=0 );
+    border: none;
+    border-radius: 6px;
+}
