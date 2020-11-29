@@ -81,6 +81,18 @@ a img {
   font-weight: 400;
 }
 
+.reservation {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 50;
+}
+
+.reservation img {
+  width: 200px;
+  height: auto;
+}
+
 .shop_img img {
   width: 380px;
   height: 180px;
