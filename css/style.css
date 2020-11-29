@@ -113,3 +113,28 @@ p {
   width: 200px;
   height: 150px;
 }
+
+@media only screen and (max-width: 375px) {
+  .menu {
+    display: none;
+  }
+  .reservation {
+    position: fixed;
+  }
+  .header_nav {
+    width: auto;
+  }
+  .header_sub_tittle p {
+    width: auto;
+  }
+  .concept img {
+    width: 300px;
+  }
+  .header_nav .snp {
+    display: none;
+  }
+  .header_nav {
+    display: flex;
+    justify-content: center;
+  }
+}
