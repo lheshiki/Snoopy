@@ -28,7 +28,7 @@ a img {
     border: none;
 }
 
-.menu ul {
+.globalMenuSp ul {
     display: block;
     float: right;
     display: flex;
@@ -44,9 +44,20 @@ a img {
     align-items: center;
 }
 
-.menu li {
+.globalMenuSp li {
     padding-left: 30px;
     align-items: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    // font-weight: normal;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: none;
 }
 
 .sns i {
