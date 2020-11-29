@@ -1,7 +1,7 @@
 @media only screen and (max-width: 375px){
-    .reservation {
-        position: fixed;
-    }
+    // .reservation {
+    //     position: fixed;
+    // }
 
     .header_nav {
         width: auto;
@@ -122,5 +122,14 @@
   }
     // ハンバーガー終了
 
+  #carouselExampleControls {
+    margin: 20px 20px;
+    height: auto;
+  }
+
+  #concept_text {
+    font-size: 11px;
+    margin: 20px 20px;
+  }
 
 }
