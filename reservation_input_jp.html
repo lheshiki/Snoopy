@@ -129,20 +129,30 @@
         <font color="red">・迷惑メール設定を解除していない場合には、正常に予約完了メールが届かないことがございます。（特にdocomo携帯のアドレスをご登録される方は設定をご確認ください）</font><br>
         ・ご予約情報をすべて入力して予約完了画面を確認するまではまだ予約はとれていない状態です。そのため、同じ条件の予約を複数の方が入力している場合、入れ違いで予約がとれなくなってしまうことがあります。
       </div>
-      <div class="input_form">
+      <div class="input_form subtitlebox">
         <h2>＊は必須項目となります</h2>
       </div>
       <form>
-        <div><input type="text" name="last_name"></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-
-
-
+        <div class="div_flex">
+          <div><label for="name_set"><span class="ast">＊</span>お名前(漢字) &nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="last_name" placeholder="姓" class="w160 inputBox" required></div>
+          <div><input type="text" name="first_name" placeholder="名" class="w160 inputBox"></div>
+        </div>
+        <div class="div_flex">
+            <div><label for="name_set"><span class="ast">＊</span>お名前(フリガナ)&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="last_name_kana" placeholder="セイ" class="w160 inputBox" required></div>
+            <div><input type="text" name="first_name_kana" placeholder="メイ" class="w160 inputBox" required></div>
+          </div>
+        
+          <div class="flex_center">
+            <label for="name_set"><span class="ast">＊</span>電話番号&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="phone_number" placeholder="例：09012345678" class="w360 inputBox" required>
+          </div>
+        <p id="webdsptelnonotice" class="attention_text">※半角（ハイフン無し）でご入力してください。</p>
+        <div class="flex_center">
+          <label for="name_set"><span class="ast">＊</span>メールアドレス&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="email" placeholder="XXXX@gmail.com" class="w360 inputBox" required>
+        </div>
+          <p id="webdspmailaddressnotice" class="attention_text mailAttention">※予約完了後、当店よりこちらのメールアドレスに予約完了メールが届きます。迷惑メール防止設定をしている場合は「@ebica.jp」からのメールを受信できるように受信許可設定をお願いします。</p>
+        <div class="flex_center">
+          <button type="submit" class="submit">確認する</button>
+        </div>
       </form>
     
 
