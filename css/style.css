@@ -283,6 +283,10 @@ footer p {
   nav.globalMenuSp.active {
     opacity: 100;
   }
+  .globalMenuSp.active ul {
+    display: flex;
+    flex-direction: column;
+  }
   #carouselExampleControls {
     margin: 20px 20px;
     height: auto;

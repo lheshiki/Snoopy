@@ -118,8 +118,14 @@
   /* このクラスを、jQueryで付与・削除する */
   nav.globalMenuSp.active {
     opacity: 100;
-  
   }
+
+  .globalMenuSp.active ul{
+    // display: wrap;
+    display: flex;
+    flex-direction: column;
+  }
+
     // ハンバーガー終了
 
   #carouselExampleControls {
