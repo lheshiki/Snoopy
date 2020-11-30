@@ -1,13 +1,13 @@
 body{display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: rgba(245, 250, 0, 0.5);
-    }
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 250, 0, 0.5);
+   }
 
 .container{width: 700px;
-           height: 100vh;
-           text-align: center;
-           background-color: white;}
+          height: 100vh;
+          text-align: center;
+          background-color: white;}
 
 
 .submit {
@@ -29,5 +29,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#662b09', end
 border: none;
 border-radius: 6px;
 }
-
-.back{margin-top: 30px;}

@@ -1,8 +1,15 @@
+<?php
+if(!isset($_POST["date"]))
+{header("Location:../reservation_input_jp.html?error=-1");}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/confirmation.css">
     <title>Confirmation</title>
 </head>
 <body>
@@ -45,9 +52,9 @@
                 <input type="hidden" name="first_name_kana" value="<?php echo $first_name_kana; ?>">
                 <input type="hidden" name="phone_number" value="<?php echo $phone; ?>">
                 <input type="hidden" name="email" value="<?php echo $email; ?>">
-                <input type="submit" value="送信">
-                <div>
-                <button type="button" onclick="history.back()">戻る</button>
+                <input type="submit" value="送信" class="submit">
+                <div class="back"> 
+                <button type="button" onclick="history.back()" class="submit">戻る</button>
                 </div>
         </form>
   </div>
