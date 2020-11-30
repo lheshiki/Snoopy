@@ -104,6 +104,8 @@ a:hover {
   height: auto;
 }
 
+/* under もえ担当 */
+
 .shop_top {
   text-align: center;
   margin-top: 30px;
@@ -122,17 +124,22 @@ a:hover {
   flex-wrap: wrap;
 }
 
-dt img {
-  width: 200px;
+
+.shoplist li{
+  margin: 0 auto;
+}
+
+.shoplist li img {
+  width: 230px;
   height: 150px;
-  display: flex;
+
   flex-wrap: wrap;
   text-align: center;
 }
 
 .shop_name {
   background-color: #cfd0d0;
-  width: 200px;
+  width: 230px;
   height: 60px;
   text-align: center;
 }
@@ -177,6 +184,7 @@ footer p {
   font-size: 12px;
   font-weight: 20;
 }
+
 
 @media only screen and (max-width: 375px) {
   .header_nav {
