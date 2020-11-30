@@ -104,6 +104,10 @@ a:hover {
   height: auto;
 }
 
+/* under もえ担当 */
+
+/* ここの下から */
+
 .shop_top {
   text-align: center;
   margin-top: 30px;
@@ -117,24 +121,35 @@ a:hover {
 
 .shoplist {
   padding-top: 30px;
-  display: flex;
-  justify-content: space-around;
+  display: flex; 
   flex-wrap: wrap;
 }
 
-dt img {
-  width: 200px;
-  height: 150px;
-  display: flex;
+.shoplist li{
+  margin: 0 auto;
+}
+
+.shoplist li img {
+  width: 270px;
+  height: 200px;
   flex-wrap: wrap;
   text-align: center;
+}
+
+.shoplist li a {
+  color: black;
+}
+
+.shoplist li a:hover {
+  color: rgba(252, 252, 152, 0.785);
 }
 
 .shop_name {
   background-color: #cfd0d0;
-  width: 200px;
+  width: 270px;
   height: 60px;
   text-align: center;
+  font-size: 15px;
 }
 
 p {
@@ -145,7 +160,7 @@ p {
 }
 
 .special_img {
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
   background-color: #f4ecac;
 }
@@ -164,15 +179,23 @@ p {
   height: 150px;
 }
 
-.brand ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  margin: 20px;
+.special_img li a {
+  color: black
 }
 
-footer p {
+.special_img li a:hover {
+  color: gray;
+}
+
+.brand ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+footer p{
   background-color: darkgrey;
   font-size: 12px;
   font-weight: 20;
